@@ -85,8 +85,7 @@ def overview(data):
 def explorer(data):
     st.markdown('**This page gives you full access to our emissions data. Build your own graph below by using the filter pane.**')
     # Create a multiselect box for the user to select the sources with default sources
-    default_sources = [source for source in data['Source'].unique() if source not in ['Fertilizer', 'Bus Travel']]
-    sources = st.sidebar.multiselect('Select Sources:', data['Source'].unique(), default=default_sources)
+    sources = st.sidebar.multiselect('Select Sources:', data['Source'].unique())
     # Create a slider for the user to select the start and end year
     start_year, end_year = st.sidebar.slider('Select a range of years:', min_value=2015, max_value=2023, value=(2015, 2023))
     # Filter the data for the selected years
