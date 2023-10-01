@@ -5,7 +5,7 @@ import plotly.express as px
 # Load the data
 cleaned_totals = pd.read_csv('data/cleaned_totals.csv')
 cleaned_normalized = pd.read_csv('data/cleaned_normalized.csv')
-st.set_page_config(page_icon='montana_Grizzlies_logo.webp')
+st.set_page_config(page_title='Griz Emissions', page_icon='montana_Grizzlies_logo.webp')
 
 main_unit = 'GHG MTCDE'
 
