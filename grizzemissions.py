@@ -98,6 +98,8 @@ def explorer(data):
     year_source_totals['Fiscal Year'] = pd.to_datetime(year_source_totals['Fiscal Year'], format='%Y')
     # Create a line chart for the total over time, grouped by source
     total_emissions_over_time_by_source = px.line(year_source_totals, x='Fiscal Year', y=main_unit, color='Source', title='Emissions by Source Over Time')
+    total_emissions_over_time_by_source.update_layout(yaxis_title=data_unit)
+
     st.plotly_chart(total_emissions_over_time_by_source)
 
 if page == 'Dashboard':
