@@ -7,6 +7,13 @@ cleaned_totals = pd.read_csv('data/cleaned_totals.csv')
 cleaned_normalized = pd.read_csv('data/cleaned_normalized.csv')
 st.set_page_config(page_title='Griz Emissions', page_icon='montana_Grizzlies_logo.webp')
 
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
 main_unit = 'GHG MTCDE'
 
 page = st.sidebar.selectbox('Navigation', ('Dashboard', 'Data Explorer'))
