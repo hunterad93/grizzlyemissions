@@ -45,21 +45,15 @@ with col1:
 
 
 def overview(data):
-    # Create a slider for the user to select the start and end year
-    start_year, end_year = st.sidebar.slider('Select a range of years:', min_value=2015, max_value=2023, value=(2015, 2023))
     # Create a multiselect box for the user to select the sources with default sources
     default_sources = [source for source in data['Source'].unique() if source not in ['Fertilizer', 'Bus Travel']]
     sources = st.sidebar.multiselect('Select Sources:', data['Source'].unique(), default=default_sources)
-
-    # Filter the data for the selected years
-    data = data[(data['Fiscal Year'] >= start_year) & (data['Fiscal Year'] <= end_year)]
 
     # Filter the data for the selected sources
     data = data[data['Source'].isin(sources)]
 
     # Aggregate data by year and scope
     year_scope_totals = data.groupby(['Fiscal Year', 'Scope'])[main_unit].sum().reset_index()
-
 
     # Convert 'Fiscal Year' from int to datetime
     year_scope_totals['Fiscal Year'] = pd.to_datetime(year_scope_totals['Fiscal Year'], format='%Y')
@@ -76,13 +70,19 @@ def overview(data):
     from sources not owned or controlled by it. The following chart shows emissions by scope.**""")
     st.plotly_chart(total_emissions_over_time)
 
+    # Create a selectbox for the user to select the year
+    year = st.selectbox('Select a year:', range(2023, 2014, -1))
+    # Filter the data for the selected year
+    data = data[data['Fiscal Year'] == year]
+
     # Aggregate data by source
     source_totals = data.groupby('Source')[main_unit].sum().reset_index()
 
     # Sort data by main_unit in descending order
     source_totals = source_totals.sort_values(main_unit, ascending=True)
 
-    st.markdown('**Compare total emissions for each source over the time period of your choosing. The following chart shows emissions by source.**')
+    st.markdown('**Compare total emissions for each source in a given year. The following chart shows emissions by source.**')
+
     # Create a horizontal bar chart for the source contribution
     fig2 = px.bar(source_totals, x=main_unit, y='Source', orientation='h', title='Emissions by Source')
     fig2.update_layout(xaxis_title=data_unit)
