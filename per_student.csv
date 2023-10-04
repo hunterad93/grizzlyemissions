@@ -1,4 +1,54 @@
 ﻿Fiscal Year,Scope,Source,CO2 (kg),CO2 (MTCDE),CH4 (kg),CH4 (MTCDE),N2O (kg),N2O (MTCDE),GHG MTCDE
+2010,1,Co-gen Electricity,25,0.02,0,0,0,0,0.02
+2010,1,Co-gen Steam,"1,101",1.1,0,0,0,0,1.1
+2010,1,Other On-Campus Stationary,11,0.01,0,0,0,0,0.01
+2010,1,Direct Transportation,80,0.08,0,0,0,0,0.08
+2010,1,Fertilizer & Animals,0,0,0,0,0,0,0
+2010,2,Purchased Electricity,"1,131",1.13,0,0,0,0.01,1.14
+2010,3,Directly Financed Air Travel,548,0.55,0,0,0,0,0.55
+2010,3,Solid Waste,0,0,5,0.13,0,0,0.13
+2010,3,FERA,144,0.14,11,0.31,0,0,0.45
+2010,3,T&D Losses,83,0.08,0,0,0,0,0.08
+2011,1,Co-gen Electricity,23,0.02,0,0,0,0,0.02
+2011,1,Co-gen Steam,"1,134",1.13,0,0,0,0,1.14
+2011,1,Other On-Campus Stationary,7,0.01,0,0,0,0,0.01
+2011,1,Direct Transportation,96,0.1,0,0,0,0,0.1
+2011,1,Fertilizer & Animals,0,0,0,0,0,0,0
+2011,2,Purchased Electricity,"1,070",1.07,0,0,0,0,1.08
+2011,3,Directly Financed Air Travel,546,0.55,0,0,0,0,0.55
+2011,3,Solid Waste,0,0,5,0.14,0,0,0.14
+2011,3,FERA,148,0.15,11,0.32,0,0,0.47
+2011,3,T&D Losses,79,0.08,0,0,0,0,0.08
+2012,1,Co-gen Electricity,23,0.02,0,0,0,0,0.02
+2012,1,Co-gen Steam,"1,049",1.05,0,0,0,0,1.05
+2012,1,Other On-Campus Stationary,8,0.01,0,0,0,0,0.01
+2012,1,Direct Transportation,97,0.1,0,0,0,0,0.1
+2012,1,Fertilizer & Animals,0,0,0,0,0,0,0
+2012,2,Purchased Electricity,830,0.83,0,0,0,0,0.83
+2012,3,Directly Financed Air Travel,582,0.58,0,0,0,0,0.58
+2012,3,Solid Waste,0,0,8,0.22,0,0,0.22
+2012,3,FERA,137,0.14,11,0.3,0,0,0.44
+2012,3,T&D Losses,51,0.05,0,0,0,0,0.05
+2013,1,Co-gen Electricity,23,0.02,0,0,0,0,0.02
+2013,1,Co-gen Steam,"1,145",1.15,0,0,0,0,1.15
+2013,1,Other On-Campus Stationary,12,0.01,0,0,0,0,0.01
+2013,1,Direct Transportation,102,0.1,0,0,0,0,0.1
+2013,1,Fertilizer & Animals,0,0,0,0,0,0,0
+2013,2,Purchased Electricity,912,0.91,0,0,0,0,0.92
+2013,3,Directly Financed Air Travel,678,0.68,0,0,0,0,0.68
+2013,3,Solid Waste,0,0,9,0.24,0,0,0.24
+2013,3,FERA,150,0.15,12,0.32,0,0,0.47
+2013,3,T&D Losses,56,0.06,0,0,0,0,0.06
+2014,1,Co-gen Electricity,22,0.02,0,0,0,0,0.02
+2014,1,Co-gen Steam,"1,100",1.1,0,0,0,0,1.1
+2014,1,Other On-Campus Stationary,52,0.05,0,0,0,0,0.05
+2014,1,Direct Transportation,95,0.09,0,0,0,0,0.1
+2014,1,Fertilizer & Animals,0,0,0,0,0,0,0
+2014,2,Purchased Electricity,"1,264",1.26,0,0,0,0.01,1.27
+2014,3,Directly Financed Air Travel,610,0.61,0,0,0,0,0.61
+2014,3,Solid Waste,0,0,9,0.24,0,0,0.24
+2014,3,FERA,158,0.16,11,0.31,0,0,0.47
+2014,3,T&D Losses,64,0.06,0,0,0,0,0.06
 2015,1,Co-gen Electricity,23,0.02,0,0,0,0,0.02
 2015,1,Co-gen Steam,"1,140",1.14,0,0,0,0,1.14
 2015,1,Other On-Campus Stationary,21,0.02,0,0,0,0,0.02
