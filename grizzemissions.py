@@ -3,6 +3,8 @@ import pandas as pd
 import plotly.express as px
 import os
 port = int(os.environ.get("PORT", 8501))
+st.set_option('theme.base', 'dark')
+st.set_option('theme.primaryColor', '#660033')
 
 # Load the data
 cleaned_totals = pd.read_csv('data/cleaned_totals.csv')
