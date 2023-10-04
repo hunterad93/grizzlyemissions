@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run grizzemissions.py
+web: sh setup.sh && streamlit run --server.port $PORT --theme.base dark --theme.primaryColor '#660033' grizzemissions.py
