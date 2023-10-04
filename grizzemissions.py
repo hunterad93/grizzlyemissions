@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
+import os
+port = int(os.environ.get("PORT", 8501))
 
 # Load the data
 cleaned_totals = pd.read_csv('data/cleaned_totals.csv')
