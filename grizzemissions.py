@@ -57,7 +57,7 @@ def clean_data(totals_data_path, per_student_data_path, main_unit):
 
 cleaned_totals, cleaned_per_student, main_unit = clean_data('total.csv', 'per_student.csv', 'GHG MTCDE')
 
-st.set_page_config(page_title='Griz Emissions', page_icon='montana_Grizzlies_logo.webp')
+st.set_page_config(page_title='Griz Emissions', page_icon='logo.png')
 
 hide_menu_style = """
         <style>
@@ -83,10 +83,15 @@ if data_unit == 'Homes Powered Equivalent':
 
 col1, col2 = st.columns([1,3])
 with col2:
-    st.markdown('<style>h1{color: #660033;}</style>', unsafe_allow_html=True)
+    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown('<style>h1{color: #5E001D;}</style>', unsafe_allow_html=True)
     st.title(f'Emissions {page}') 
 with col1:
-    st.image('montana_Grizzlies_logo.webp', width=170)
+
+    st.image('logo.png', width=170)
+   
+
+
 
 def overview(data):
     # Create a multiselect box for the user to select the sources with default sources
@@ -152,7 +157,7 @@ def explorer(data):
     # Convert 'Fiscal Year' from int to datetime
     year_source_totals['Fiscal Year'] = pd.to_datetime(year_source_totals['Fiscal Year'], format='%Y')
     # Create a line chart for the total over time, grouped by source
-    total_emissions_over_time_by_source = px.line(year_source_totals, x='Fiscal Year', y=main_unit, color='Source', title='Emissions by Source Over Time')
+    total_emissions_over_time_by_source = px.line(year_source_totals, x='Fiscal Year', y=main_unit, color='Source', title=f'Emissions by Source {start_year} to {end_year}')
     total_emissions_over_time_by_source.update_layout(yaxis_title=data_unit)
     # Calculate the range of years
     year_range = end_year - start_year
