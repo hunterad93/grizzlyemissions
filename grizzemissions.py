@@ -209,8 +209,8 @@ def explorer(data):
         # Get blurb for the last selected source
         source_blurb = blurbs[blurbs['Source'] == last_selected_source]['Blurb'].values[0]
 
-        # Display the blurb
         st.markdown(f"**{source_blurb}**")
+
 
 
 if page == 'Dashboard':
