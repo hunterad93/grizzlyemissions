@@ -105,7 +105,7 @@ def overview(data):
         '3': '#FFABAB'   # light red
     }
     # Create a multiselect box for the user to select the sources with default sources
-    default_sources = [source for source in data['Source'].unique() if source not in ['Fertilizer', 'Bus Travel']]
+    default_sources = [source for source in data['Source'].unique() if source not in ['Fertilizer', 'Bus Travel', 'Propane & Natural Gas']]
     sources = st.sidebar.multiselect('Select Sources:', data['Source'].unique(), default=default_sources)
 
     # Filter the data for the selected sources
@@ -145,7 +145,7 @@ def overview(data):
     source_totals = source_totals.sort_values(main_unit, ascending=False)
 
     # Create a horizontal bar chart for the source contribution
-    fig2 = px.bar(source_totals, x=main_unit, y='Source', orientation='h', title=f'Emissions by Source {year}', color='Scope', color_discrete_map=color_mapping,
+    fig2 = px.bar(source_totals, x=main_unit, y='Source', orientation='h', title=f'Emissions by Source {year}', color='Scope', color_discrete_map=color_mapping, opacity=.7,
                 category_orders={"Source": list(source_totals['Source'])})
     fig2.update_layout(xaxis_title=data_unit)
     # Reverse the order of the legend
@@ -162,7 +162,8 @@ def overview(data):
     st.plotly_chart(fig2)
 
 def explorer(data):
-    st.markdown('**This page gives you full access to our emissions data. Build your own graph below by using the filter pane.**')
+    st.markdown("""**This page gives you full access to our emissions data. Build your own graph below by using the filter pane. 
+                    Each time you select a source an informational caption will appear below the chart.**""")
     # Create a multiselect box for the user to select the sources with default sources
     sources = st.sidebar.multiselect('Select Sources:', data['Source'].unique())
     # Create a slider for the user to select the start and end year
@@ -197,6 +198,20 @@ def explorer(data):
     )
 
     st.plotly_chart(total_emissions_over_time_by_source)
+
+    # Filter the data for the last selected source
+    last_selected_source = sources[-1] if sources else None
+    if last_selected_source:
+
+        # Load blurbs from csv
+        blurbs = pd.read_csv('blurbs.csv')
+
+        # Get blurb for the last selected source
+        source_blurb = blurbs[blurbs['Source'] == last_selected_source]['Blurb'].values[0]
+
+        # Display the blurb
+        st.markdown(f"**{source_blurb}**")
+
 
 if page == 'Dashboard':
     overview(data)
