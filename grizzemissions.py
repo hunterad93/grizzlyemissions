@@ -9,6 +9,10 @@ def clean_data(totals_data_path, per_student_data_path, main_unit):
     totals_data = pd.read_csv(totals_data_path)
     per_student_data = pd.read_csv(per_student_data_path)
 
+    # Convert 'Scope' to string
+    totals_data['Scope'] = totals_data['Scope'].astype(str)
+    per_student_data['Scope'] = per_student_data['Scope'].astype(str)
+
     # Select relevant columns
     totals_data = totals_data[['Fiscal Year', 'Scope', 'Source', main_unit]]
     per_student_data = per_student_data[['Fiscal Year', 'Scope', 'Source', main_unit]]
@@ -94,6 +98,12 @@ with col1:
 
 
 def overview(data):
+    # Define color mapping for scopes
+    color_mapping = {
+        '1': '#73B7ED',  # light blue
+        '2': '#0068C9',  # dark blue
+        '3': '#FFABAB'   # light red
+    }
     # Create a multiselect box for the user to select the sources with default sources
     default_sources = [source for source in data['Source'].unique() if source not in ['Fertilizer', 'Bus Travel']]
     sources = st.sidebar.multiselect('Select Sources:', data['Source'].unique(), default=default_sources)
@@ -108,7 +118,7 @@ def overview(data):
     year_scope_totals['Fiscal Year'] = pd.to_datetime(year_scope_totals['Fiscal Year'], format='%Y')
 
     # Create an area chart for the total over time, grouped by scope
-    total_emissions_over_time = px.area(year_scope_totals, x='Fiscal Year', y=main_unit, color='Scope', title='Emissions by Scope')
+    total_emissions_over_time = px.area(year_scope_totals, x='Fiscal Year', y=main_unit, color='Scope', title='Emissions by Scope',color_discrete_map=color_mapping)
     # Reverse the order of the legend
     total_emissions_over_time.for_each_trace(lambda trace: trace.update(showlegend=True))
     total_emissions_over_time.update_layout(legend=dict(traceorder="reversed"))
@@ -129,14 +139,25 @@ def overview(data):
     data = data[data['Fiscal Year'] == year]
 
     # Aggregate data by source
-    source_totals = data.groupby('Source')[main_unit].sum().reset_index()
-
+    #Aggregate data by source and scope
+    source_totals = data.groupby('Source').agg({main_unit: 'sum', 'Scope': 'first'}).reset_index()
     # Sort data by main_unit in descending order
-    source_totals = source_totals.sort_values(main_unit, ascending=True)
+    source_totals = source_totals.sort_values(main_unit, ascending=False)
 
     # Create a horizontal bar chart for the source contribution
-    fig2 = px.bar(source_totals, x=main_unit, y='Source', orientation='h', title=f'Emissions by Source {year}')
+    fig2 = px.bar(source_totals, x=main_unit, y='Source', orientation='h', title=f'Emissions by Source {year}', color='Scope', color_discrete_map=color_mapping,
+                category_orders={"Source": list(source_totals['Source'])})
     fig2.update_layout(xaxis_title=data_unit)
+    # Reverse the order of the legend
+    # Update the legend order to 3, 2, 1
+    def update_legend_order(trace):
+        if trace.name == '1':
+            trace.legendrank = 3
+        elif trace.name == '2':
+            trace.legendrank = 2
+        elif trace.name == '3':
+            trace.legendrank = 1
+    fig2.for_each_trace(update_legend_order)
 
     st.plotly_chart(fig2)
 
