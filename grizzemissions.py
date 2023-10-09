@@ -209,9 +209,23 @@ def explorer(data):
         # Get blurb for the last selected source
         source_blurb = blurbs[blurbs['Source'] == last_selected_source]['Blurb'].values[0]
 
-        st.markdown(f"**{source_blurb}**")
-
-
+        # Check if 'Percent Change Predicted' column exists
+        if 'Percent Change Predicted' in blurbs.columns:
+            # Get the 'Percent Change Predicted' for the last selected source
+            percent_change_predicted = blurbs[blurbs['Source'] == last_selected_source]['Percent Change Predicted'].values[0]
+            
+            # Add prediction to the blurb based on the 'Percent Change Predicted'
+            if abs(percent_change_predicted) >= 10:
+                prediction = "increase" if percent_change_predicted > 0 else "decrease"
+                prediction_color = "red" if percent_change_predicted > 0 else "green"
+            else:
+                prediction = "remain stable"
+                prediction_color = "blue"
+            st.markdown(f"""**{source_blurb}** <br><br> Exponential smoothing model predicts {last_selected_source.lower()} emissions will 
+                        <span style='color:{prediction_color}'>{prediction}</span> for next year.""", unsafe_allow_html=True)
+        else:
+            # If 'Percent Change Predicted' column does not exist, just display the source blurb
+            st.markdown(f"**{source_blurb}**")
 
 if page == 'Dashboard':
     overview(data)
