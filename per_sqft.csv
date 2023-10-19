@@ -1,0 +1,169 @@
+﻿Fiscal Year,Scope,Source,CO2 (kg),CO2 (MTCDE),CH4 (kg),CH4 (MTCDE),N2O (kg),N2O (MTCDE),GHG MTCDE
+2010,1,Co-gen Electricity,98,0.1,0,0,0,0,0.1
+2010,1,Co-gen Steam,"4,385",4.38,0,0.01,0,0,4.4
+2010,1,Other On-Campus Stationary,45,0.05,0,0,0,0,0.05
+2010,1,Direct Transportation,320,0.32,0,0,0,0.01,0.32
+2010,1,Fertilizer & Animals,0,0,0,0,0,0.02,0.02
+2010,2,Purchased Electricity,"4,504",4.5,0,0,0,0.02,4.52
+2010,3,Directly Financed Air Travel,"2,182",2.18,0,0,0,0.01,2.19
+2010,3,Solid Waste,0,0,19,0.53,0,0,0.53
+2010,3,FERA,573,0.57,44,1.23,0,0,1.81
+2010,3,T&D Losses,331,0.33,0,0,0,0,0.33
+2011,1,Co-gen Electricity,92,0.09,0,0,0,0,0.09
+2011,1,Co-gen Steam,"4,464",4.46,0,0.01,0,0,4.48
+2011,1,Other On-Campus Stationary,28,0.03,0,0,0,0,0.03
+2011,1,Direct Transportation,377,0.38,0,0,0,0,0.38
+2011,1,Fertilizer & Animals,0,0,0,0,0,0.01,0.01
+2011,2,Purchased Electricity,"4,212",4.21,0,0,0,0.02,4.23
+2011,3,Directly Financed Air Travel,"2,148",2.15,0,0,0,0.01,2.15
+2011,3,Solid Waste,0,0,20,0.56,0,0,0.56
+2011,3,FERA,582,0.58,45,1.27,0,0,1.85
+2011,3,T&D Losses,309,0.31,0,0,0,0,0.31
+2012,1,Co-gen Electricity,90,0.09,0,0,0,0,0.09
+2012,1,Co-gen Steam,"4,173",4.17,0,0.01,0,0,4.19
+2012,1,Other On-Campus Stationary,33,0.03,0,0,0,0,0.03
+2012,1,Direct Transportation,386,0.39,0,0,0,0,0.39
+2012,1,Fertilizer & Animals,0,0,0,0,0,0.01,0.01
+2012,2,Purchased Electricity,"3,305",3.31,0,0,0,0.01,3.32
+2012,3,Directly Financed Air Travel,"2,318",2.32,0,0,0,0.01,2.32
+2012,3,Solid Waste,0,0,31,0.86,0,0,0.86
+2012,3,FERA,546,0.55,42,1.19,0,0,1.73
+2012,3,T&D Losses,202,0.2,0,0,0,0,0.2
+2013,1,Co-gen Electricity,82,0.08,0,0,0,0,0.08
+2013,1,Co-gen Steam,"4,091",4.09,0,0.01,0,0,4.1
+2013,1,Other On-Campus Stationary,42,0.04,0,0,0,0,0.04
+2013,1,Direct Transportation,365,0.37,0,0,0,0,0.37
+2013,1,Fertilizer & Animals,0,0,0,0,0,0.01,0.01
+2013,2,Purchased Electricity,"3,259",3.26,0,0,0,0.01,3.27
+2013,3,Directly Financed Air Travel,"2,423",2.42,0,0,0,0.01,2.43
+2013,3,Solid Waste,0,0,30,0.85,0,0,0.85
+2013,3,FERA,534,0.53,41,1.16,0,0,1.7
+2013,3,T&D Losses,199,0.2,0,0,0,0,0.2
+2014,1,Co-gen Electricity,76,0.08,0,0,0,0,0.08
+2014,1,Co-gen Steam,"3,759",3.76,0,0.01,0,0,3.77
+2014,1,Other On-Campus Stationary,176,0.18,0,0,0,0,0.18
+2014,1,Direct Transportation,323,0.32,0,0,0,0,0.33
+2014,1,Fertilizer & Animals,0,0,0,0,0,0.01,0.01
+2014,2,Purchased Electricity,"4,321",4.32,0,0.01,0,0.02,4.35
+2014,3,Directly Financed Air Travel,"2,084",2.08,0,0,0,0.01,2.09
+2014,3,Solid Waste,0,0,29,0.82,0,0,0.82
+2014,3,FERA,538,0.54,38,1.07,0,0,1.61
+2014,3,T&D Losses,217,0.22,0,0,0,0,0.22
+2015,1,Co-gen Electricity,72,0.07,0,0,0,0,0.07
+2015,1,Co-gen Steam,"3,529",3.53,0,0.01,0,0,3.54
+2015,1,Other On-Campus Stationary,64,0.06,0,0,0,0,0.06
+2015,1,Direct Transportation,281,0.28,0,0,0,0,0.28
+2015,1,Fertilizer & Animals,0,0,0,0,0,0.02,0.02
+2015,2,Purchased Electricity,"4,244",4.24,0,0.01,0,0.02,4.27
+2015,3,Faculty Commuting,88,0.09,0,0,0,0,0.09
+2015,3,Staff Commuting,179,0.18,0,0,0,0,0.18
+2015,3,Directly Financed Air Travel,"2,407",2.41,0,0,0,0.01,2.41
+2015,3,Other Directly Financed Travel,0,0,0,0,0,0,0
+2015,3,Solid Waste,0,0,29,0.82,0,0,0.82
+2015,3,FERA,472,0.47,36,1,0,0,1.48
+2015,3,T&D Losses,214,0.21,0,0,0,0,0.22
+2016,1,Co-gen Electricity,65,0.06,0,0,0,0,0.07
+2016,1,Co-gen Steam,"3,434",3.43,0,0.01,0,0,3.45
+2016,1,Other On-Campus Stationary,20,0.02,0,0,0,0,0.02
+2016,1,Direct Transportation,230,0.23,0,0,0,0,0.23
+2016,1,Fertilizer & Animals,0,0,0,0,0,0.01,0.01
+2016,2,Purchased Electricity,"2,954",2.95,0,0.01,0,0.01,2.97
+2016,3,Faculty Commuting,86,0.09,0,0,0,0,0.09
+2016,3,Staff Commuting,187,0.19,0,0,0,0,0.19
+2016,3,Directly Financed Air Travel,"2,296",2.3,0,0,0,0.01,2.3
+2016,3,Other Directly Financed Travel,0,0,0,0,0,0,0
+2016,3,Solid Waste,0,0,29,0.82,0,0,0.82
+2016,3,FERA,447,0.45,35,0.98,0,0,1.42
+2016,3,T&D Losses,130,0.13,0,0,0,0,0.13
+2017,1,Co-gen Electricity,59,0.06,0,0,0,0,0.06
+2017,1,Co-gen Steam,"3,765",3.76,0,0.01,0,0,3.78
+2017,1,Other On-Campus Stationary,32,0.03,0,0,0,0,0.03
+2017,1,Direct Transportation,324,0.32,0,0,0,0,0.33
+2017,1,Fertilizer & Animals,0,0,0,0,0,0.01,0.01
+2017,2,Purchased Electricity,"3,003",3,0,0.01,0,0.01,3.02
+2017,3,Faculty Commuting,82,0.08,0,0,0,0,0.08
+2017,3,Staff Commuting,180,0.18,0,0,0,0,0.18
+2017,3,Directly Financed Air Travel,"2,174",2.17,0,0,0,0.01,2.18
+2017,3,Other Directly Financed Travel,0,0,0,0,0,0,0
+2017,3,Solid Waste,0,0,29,0.82,0,0,0.82
+2017,3,FERA,490,0.49,38,1.07,0,0,1.56
+2017,3,T&D Losses,133,0.13,0,0,0,0,0.13
+2018,1,Co-gen Electricity,38,0.04,0,0,0,0,0.04
+2018,1,Co-gen Steam,"3,569",3.57,0,0.01,0,0,3.58
+2018,1,Other On-Campus Stationary,136,0.14,0,0,0,0,0.14
+2018,1,Direct Transportation,235,0.24,0,0,0,0,0.24
+2018,1,Fertilizer & Animals,0,0,0,0,0,0,0
+2018,2,Purchased Electricity,"2,786",2.79,0,0.01,0,0.01,2.8
+2018,3,Faculty Commuting,89,0.09,0,0,0,0,0.09
+2018,3,Staff Commuting,223,0.22,0,0,0,0,0.23
+2018,3,Directly Financed Air Travel,"2,474",2.47,0,0,0,0.01,2.48
+2018,3,Other Directly Financed Travel,0,0,0,0,0,0,0
+2018,3,Solid Waste,0,0,28,0.79,0,0,0.79
+2018,3,FERA,472,0.47,37,1.04,0,0,1.51
+2018,3,T&D Losses,141,0.14,0,0,0,0,0.14
+2019,1,Co-gen Electricity,68,0.07,0,0,0,0,0.07
+2019,1,Co-gen Steam,"3,805",3.81,0,0.01,0,0,3.82
+2019,1,Other On-Campus Stationary,158,0.16,0,0,0,0,0.16
+2019,1,Direct Transportation,237,0.24,0,0,0,0,0.24
+2019,1,Fertilizer & Animals,0,0,0,0,0,0,0
+2019,2,Purchased Electricity,"3,029",3.03,0,0.01,0,0.01,3.05
+2019,3,Faculty Commuting,87,0.09,0,0,0,0,0.09
+2019,3,Staff Commuting,217,0.22,0,0,0,0,0.22
+2019,3,Directly Financed Air Travel,"2,385",2.39,0,0,0,0.01,2.39
+2019,3,Other Directly Financed Travel,0,0,0,0,0,0,0
+2019,3,Solid Waste,0,0,6,0.16,0,0,0.16
+2019,3,FERA,508,0.51,40,1.11,0,0,1.62
+2019,3,T&D Losses,163,0.16,0,0,0,0,0.16
+2020,1,Co-gen Electricity,66,0.07,0,0,0,0,0.07
+2020,1,Co-gen Steam,"3,515",3.51,0,0.01,0,0,3.53
+2020,1,Other On-Campus Stationary,128,0.13,0,0,0,0,0.13
+2020,1,Direct Transportation,235,0.24,0,0,0,0,0.24
+2020,1,Fertilizer & Animals,0,0,0,0,0,0,0
+2020,2,Purchased Electricity,"2,445",2.44,0,0.01,0,0.01,2.46
+2020,3,Faculty Commuting,74,0.07,0,0,0,0,0.07
+2020,3,Staff Commuting,210,0.21,0,0,0,0,0.21
+2020,3,Directly Financed Air Travel,"3,701",3.7,0,0,0,0.01,3.71
+2020,3,Other Directly Financed Travel,0,0,0,0,0,0,0
+2020,3,Solid Waste,0,0,4,0.1,0,0,0.1
+2020,3,FERA,468,0.47,37,1.03,0,0,1.49
+2020,3,T&D Losses,137,0.14,0,0,0,0,0.14
+2021,1,Co-gen Electricity,77,0.08,0,0,0,0,0.08
+2021,1,Co-gen Steam,"3,723",3.72,0,0.01,0,0,3.74
+2021,1,Other On-Campus Stationary,22,0.02,0,0,0,0,0.02
+2021,1,Direct Transportation,207,0.21,0,0,0,0,0.21
+2021,1,Fertilizer & Animals,0,0,0,0,0,0,0
+2021,2,Purchased Electricity,"2,443",2.44,0,0.01,0,0.01,2.46
+2021,3,Faculty Commuting,83,0.08,0,0,0,0,0.08
+2021,3,Staff Commuting,280,0.28,0,0,0,0,0.28
+2021,3,Student Commuting,663,0.66,0,0,0,0.01,0.67
+2021,3,Directly Financed Air Travel,616,0.62,0,0,0,0,0.62
+2021,3,Other Directly Financed Travel,0,0,0,0,0,0,0
+2021,3,Solid Waste,0,0,10,0.27,0,0,0.27
+2021,3,FERA,483,0.48,38,1.06,0,0,1.54
+2021,3,T&D Losses,137,0.14,0,0,0,0,0.14
+2022,1,Co-gen Steam,"3,708",3.71,0,0.01,0,0,3.72
+2022,1,Other On-Campus Stationary,19,0.02,0,0,0,0,0.02
+2022,1,Direct Transportation,309,0.31,0,0,0,0,0.31
+2022,1,Fertilizer & Animals,0,0,0,0,0,0,0
+2022,2,Purchased Electricity,"2,571",2.57,0,0.01,0,0.01,2.59
+2022,3,Faculty Commuting,88,0.09,0,0,0,0,0.09
+2022,3,Staff Commuting,280,0.28,0,0,0,0,0.28
+2022,3,Student Commuting,683,0.68,0,0,0,0.01,0.69
+2022,3,Directly Financed Air Travel,"2,317",2.32,0,0,0,0.01,2.32
+2022,3,Other Directly Financed Travel,0,0,0,0,0,0,0
+2022,3,Solid Waste,0,0,12,0.35,0,0,0.35
+2022,3,FERA,471,0.47,37,1.03,0,0,1.51
+2022,3,T&D Losses,144,0.14,0,0,0,0,0.14
+2023,1,Co-gen Steam,"3,661",3.66,0,0.01,0,0,3.67
+2023,1,Other On-Campus Stationary,22,0.02,0,0,0,0,0.02
+2023,1,Direct Transportation,363,0.36,0,0,0,0,0.37
+2023,1,Fertilizer & Animals,0,0,0,0,0,0,0
+2023,2,Purchased Electricity,"2,630",2.63,0,0.01,0,0.01,2.65
+2023,3,Faculty Commuting,88,0.09,0,0,0,0,0.09
+2023,3,Staff Commuting,282,0.28,0,0,0,0,0.29
+2023,3,Student Commuting,682,0.68,0,0,0,0.01,0.69
+2023,3,Directly Financed Air Travel,"3,372",3.37,0,0,0,0.01,3.38
+2023,3,Other Directly Financed Travel,0,0,0,0,0,0,0
+2023,3,Solid Waste,0,0,13,0.38,0,0,0.38
+2023,3,FERA,466,0.47,36,1.02,0,0,1.49
+2023,3,T&D Losses,147,0.15,0,0,0,0,0.15

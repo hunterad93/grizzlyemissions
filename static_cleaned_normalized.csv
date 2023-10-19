@@ -1,0 +1,145 @@
+Fiscal Year,Scope,Source,GHG MTCDE
+2010,1,Co-gen Plant,1.12
+2010,1,University Fleet,0.08
+2010,1,Fertilizer,0.0
+2010,1,Propane & Natural Gas,0.01
+2010,2,Purchased Electricity,1.14
+2010,3,Air Travel,0.55
+2010,3,FERA,0.45
+2010,3,Landfill Waste,0.13
+2010,3,T&D Losses,0.08
+2011,1,Co-gen Plant,1.16
+2011,1,University Fleet,0.1
+2011,1,Fertilizer,0.0
+2011,1,Propane & Natural Gas,0.01
+2011,2,Purchased Electricity,1.08
+2011,3,Air Travel,0.55
+2011,3,FERA,0.47
+2011,3,Landfill Waste,0.14
+2011,3,T&D Losses,0.08
+2012,1,Co-gen Plant,1.07
+2012,1,University Fleet,0.1
+2012,1,Fertilizer,0.0
+2012,1,Propane & Natural Gas,0.01
+2012,2,Purchased Electricity,0.83
+2012,3,Air Travel,0.58
+2012,3,FERA,0.44
+2012,3,Landfill Waste,0.22
+2012,3,T&D Losses,0.05
+2013,1,Co-gen Plant,1.17
+2013,1,University Fleet,0.1
+2013,1,Fertilizer,0.0
+2013,1,Propane & Natural Gas,0.01
+2013,2,Purchased Electricity,0.92
+2013,3,Air Travel,0.68
+2013,3,FERA,0.47
+2013,3,Landfill Waste,0.24
+2013,3,T&D Losses,0.06
+2014,1,Co-gen Plant,1.12
+2014,1,University Fleet,0.1
+2014,1,Fertilizer,0.0
+2014,1,Propane & Natural Gas,0.05
+2014,2,Purchased Electricity,1.27
+2014,3,Air Travel,0.61
+2014,3,FERA,0.47
+2014,3,Landfill Waste,0.24
+2014,3,T&D Losses,0.06
+2015,1,Co-gen Plant,1.16
+2015,1,University Fleet,0.09
+2015,1,Fertilizer,0.01
+2015,1,Propane & Natural Gas,0.02
+2015,2,Purchased Electricity,1.38
+2015,3,Commuting,0.09
+2015,3,Air Travel,0.78
+2015,3,FERA,0.48
+2015,3,Bus Travel,0.0
+2015,3,Landfill Waste,0.26
+2015,3,T&D Losses,0.07
+2016,1,Co-gen Plant,1.33
+2016,1,University Fleet,0.09
+2016,1,Fertilizer,0.0
+2016,1,Propane & Natural Gas,0.01
+2016,2,Purchased Electricity,1.13
+2016,3,Commuting,0.1
+2016,3,Air Travel,0.88
+2016,3,FERA,0.54
+2016,3,Bus Travel,0.0
+2016,3,Landfill Waste,0.31
+2016,3,T&D Losses,0.05
+2017,1,Co-gen Plant,1.54
+2017,1,University Fleet,0.13
+2017,1,Fertilizer,0.01
+2017,1,Propane & Natural Gas,0.01
+2017,2,Purchased Electricity,1.22
+2017,3,Commuting,0.1
+2017,3,Air Travel,0.88
+2017,3,FERA,0.63
+2017,3,Bus Travel,0.0
+2017,3,Landfill Waste,0.33
+2017,3,T&D Losses,0.05
+2018,1,Co-gen Plant,1.28
+2018,1,University Fleet,0.08
+2018,1,Fertilizer,0.0
+2018,1,Propane & Natural Gas,0.05
+2018,2,Purchased Electricity,0.99
+2018,3,Commuting,0.11
+2018,3,Air Travel,0.88
+2018,3,FERA,0.54
+2018,3,Bus Travel,0.0
+2018,3,Landfill Waste,0.28
+2018,3,T&D Losses,0.05
+2019,1,Co-gen Plant,1.5
+2019,1,University Fleet,0.09
+2019,1,Fertilizer,0.0
+2019,1,Propane & Natural Gas,0.06
+2019,2,Purchased Electricity,1.17
+2019,3,Commuting,0.11
+2019,3,Air Travel,0.92
+2019,3,FERA,0.62
+2019,3,Bus Travel,0.0
+2019,3,Landfill Waste,0.06
+2019,3,T&D Losses,0.06
+2020,1,Co-gen Plant,1.49
+2020,1,University Fleet,0.1
+2020,1,Fertilizer,0.0
+2020,1,Propane & Natural Gas,0.05
+2020,2,Purchased Electricity,1.02
+2020,3,Commuting,0.12
+2020,3,Air Travel,1.53
+2020,3,FERA,0.62
+2020,3,Bus Travel,0.0
+2020,3,Landfill Waste,0.04
+2020,3,T&D Losses,0.06
+2021,1,Co-gen Plant,1.7
+2021,1,University Fleet,0.09
+2021,1,Fertilizer,0.0
+2021,1,Propane & Natural Gas,0.01
+2021,2,Purchased Electricity,1.1
+2021,3,Commuting,0.47
+2021,3,Air Travel,0.28
+2021,3,FERA,0.69
+2021,3,Bus Travel,0.0
+2021,3,Landfill Waste,0.12
+2021,3,T&D Losses,0.06
+2022,1,Co-gen Plant,1.63
+2022,1,University Fleet,0.14
+2022,1,Fertilizer,0.0
+2022,1,Propane & Natural Gas,0.01
+2022,2,Purchased Electricity,1.13
+2022,3,Commuting,0.45999999999999996
+2022,3,Air Travel,1.02
+2022,3,FERA,0.66
+2022,3,Bus Travel,0.0
+2022,3,Landfill Waste,0.15
+2022,3,T&D Losses,0.06
+2023,1,Co-gen Plant,1.6
+2023,1,University Fleet,0.16
+2023,1,Fertilizer,0.0
+2023,1,Propane & Natural Gas,0.01
+2023,2,Purchased Electricity,1.15
+2023,3,Commuting,0.45999999999999996
+2023,3,Air Travel,1.47
+2023,3,FERA,0.65
+2023,3,Bus Travel,0.0
+2023,3,Landfill Waste,0.16
+2023,3,T&D Losses,0.06

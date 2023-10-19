@@ -143,10 +143,39 @@ def overview(data):
     source_totals = data.groupby('Source').agg({main_unit: 'sum', 'Scope': 'first'}).reset_index()
     # Sort data by main_unit in descending order
     source_totals = source_totals.sort_values(main_unit, ascending=False)
+    # Load blurbs from csv
+    blurbs = pd.read_csv('blurbs.csv')
+
+    # Merge source_totals with blurbs on 'Source'
+    source_totals = pd.merge(source_totals, blurbs[['Source', 'Blurb']], on='Source', how='left')
+
+    def insert_line_breaks(text, x):
+        lines = []
+        line = ""
+        for word in text.strip().split():  # Strip leading and trailing whitespace
+            if len(line + word) > x:
+                lines.append(line)
+                line = word.strip()  # Remove leading spaces
+            else:
+                line = line + " " + word if line else word
+        lines.append(line)
+        # Calculate the length of the longest line
+        max_length = max(len(line) for line in lines)
+        # Add whitespace at the end of each line to make it equal to the length of the longest line
+        lines = [line + " " * (max_length - len(line)) for line in lines]
+        # Insert line breaks using the br tag
+        return '<br>'.join(lines)
+
+    # Apply the function to the 'Blurb' column
+    source_totals['Blurb'] = source_totals['Blurb'].apply(lambda text: insert_line_breaks(text, x=50))
 
     # Create a horizontal bar chart for the source contribution
     fig2 = px.bar(source_totals, x=main_unit, y='Source', orientation='h', title=f'Emissions by Source {year}', color='Scope', color_discrete_map=color_mapping, opacity=.7,
-                category_orders={"Source": list(source_totals['Source'])})
+                category_orders={"Source": list(source_totals['Source'])}, custom_data=['Blurb'])
+
+    # Set hovertemplate to display 'Blurb' data
+    fig2.update_traces(hovertemplate='%{customdata[0]}<extra></extra>')
+    fig2.update_layout(hoverlabel=dict(font_size=16))
     fig2.update_layout(xaxis_title=data_unit)
     # Reverse the order of the legend
     # Update the legend order to 3, 2, 1

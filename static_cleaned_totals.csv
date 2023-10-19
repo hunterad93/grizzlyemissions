@@ -1,0 +1,145 @@
+Fiscal Year,Scope,Source,GHG MTCDE
+2010,1,Co-gen Plant,15773.02
+2010,1,University Fleet,1139.78
+2010,1,Fertilizer,55.66
+2010,1,Propane & Natural Gas,159.78
+2010,2,Purchased Electricity,15869.59
+2010,3,Air Travel,7675.43
+2010,3,FERA,6338.21
+2010,3,Landfill Waste,1867.24
+2010,3,T&D Losses,1165.18
+2011,1,Co-gen Plant,16037.789999999999
+2011,1,University Fleet,1339.81
+2011,1,Fertilizer,44.27
+2011,1,Propane & Natural Gas,100.22
+2011,2,Purchased Electricity,14845.45
+2011,3,Air Travel,7557.37
+2011,3,FERA,6488.1
+2011,3,Landfill Waste,1948.83
+2011,3,T&D Losses,1089.98
+2012,1,Co-gen Plant,15008.36
+2012,1,University Fleet,1368.09
+2012,1,Fertilizer,44.27
+2012,1,Propane & Natural Gas,116.2
+2012,2,Purchased Electricity,11649.54
+2012,3,Air Travel,8155.88
+2012,3,FERA,6079.36
+2012,3,Landfill Waste,3017.55
+2012,3,T&D Losses,712.5
+2013,1,Co-gen Plant,14833.65
+2013,1,University Fleet,1306.5
+2013,1,Fertilizer,50.45
+2013,1,Propane & Natural Gas,148.82
+2013,2,Purchased Electricity,11600.0
+2013,3,Air Travel,8610.09
+2013,3,FERA,6009.79
+2013,3,Landfill Waste,3017.55
+2013,3,T&D Losses,709.47
+2014,1,Co-gen Plant,13629.21
+2014,1,University Fleet,1157.1
+2014,1,Fertilizer,50.7
+2014,1,Propane & Natural Gas,629.22
+2014,2,Purchased Electricity,15416.9
+2014,3,Air Travel,7404.83
+2014,3,FERA,5693.24
+2014,3,Landfill Waste,2891.82
+2014,3,T&D Losses,775.62
+2015,1,Co-gen Plant,12797.76
+2015,1,University Fleet,1001.33
+2015,1,Fertilizer,55.48
+2015,1,Propane & Natural Gas,227.14
+2015,2,Purchased Electricity,15143.55
+2015,3,Commuting,955.74
+2015,3,Air Travel,8554.53
+2015,3,FERA,5231.24
+2015,3,Bus Travel,0.29
+2015,3,Landfill Waste,2891.82
+2015,3,T&D Losses,761.87
+2016,1,Co-gen Plant,12438.320000000002
+2016,1,University Fleet,822.27
+2016,1,Fertilizer,24.15
+2016,1,Propane & Natural Gas,70.93
+2016,2,Purchased Electricity,10529.12
+2016,3,Commuting,980.6
+2016,3,Air Travel,8156.71
+2016,3,FERA,5043.98
+2016,3,Bus Travel,0.08
+2016,3,Landfill Waste,2891.82
+2016,3,T&D Losses,465.05
+2017,1,Co-gen Plant,13590.970000000001
+2017,1,University Fleet,1156.71
+2017,1,Fertilizer,52.6
+2017,1,Propane & Natural Gas,112.63
+2017,2,Purchased Electricity,10704.51
+2017,3,Commuting,939.13
+2017,3,Air Travel,7723.63
+2017,3,FERA,5516.07
+2017,3,Bus Travel,0.33
+2017,3,Landfill Waste,2891.82
+2017,3,T&D Losses,472.8
+2018,1,Co-gen Plant,13179.18
+2018,1,University Fleet,863.39
+2018,1,Fertilizer,10.19
+2018,1,Propane & Natural Gas,498.07
+2018,2,Purchased Electricity,10208.52
+2018,3,Commuting,1146.7
+2018,3,Air Travel,9035.11
+2018,3,FERA,5493.54
+2018,3,Bus Travel,0.48
+2018,3,Landfill Waste,2891.82
+2018,3,T&D Losses,515.22
+2019,1,Co-gen Plant,14149.64
+2019,1,University Fleet,867.91
+2019,1,Fertilizer,6.68
+2019,1,Propane & Natural Gas,578.04
+2019,2,Purchased Electricity,11098.63
+2019,3,Commuting,1119.1
+2019,3,Air Travel,8710.63
+2019,3,FERA,5907.08
+2019,3,Bus Travel,0.45
+2019,3,Landfill Waste,579.08
+2019,3,T&D Losses,596.45
+2020,1,Co-gen Plant,13224.150000000001
+2020,1,University Fleet,873.53
+2020,1,Fertilizer,9.49
+2020,1,Propane & Natural Gas,473.37
+2020,2,Purchased Electricity,9055.11
+2020,3,Commuting,1054.8
+2020,3,Air Travel,13648.02
+2020,3,FERA,5502.72
+2020,3,Bus Travel,0.43
+2020,3,Landfill Waste,377.13
+2020,3,T&D Losses,506.78
+2021,1,Co-gen Plant,14217.76
+2021,1,University Fleet,779.96
+2021,1,Fertilizer,5.01
+2021,1,Propane & Natural Gas,83.36
+2021,2,Purchased Electricity,9166.19
+2021,3,Commuting,3867.44
+2021,3,Air Travel,2301.04
+2021,3,FERA,5756.31
+2021,3,Bus Travel,0.96
+2021,3,Landfill Waste,1013.91
+2021,3,T&D Losses,513.0
+2022,1,Co-gen Plant,13872.68
+2022,1,University Fleet,1160.97
+2022,1,Fertilizer,5.01
+2022,1,Propane & Natural Gas,71.12
+2022,2,Purchased Electricity,9643.71
+2022,3,Commuting,3962.94
+2022,3,Air Travel,8665.03
+2022,3,FERA,5616.6
+2022,3,Bus Travel,1.49
+2022,3,Landfill Waste,1303.46
+2022,3,T&D Losses,539.72
+2023,1,Co-gen Plant,13507.21
+2023,1,University Fleet,1345.79
+2023,1,Fertilizer,9.3
+2023,1,Propane & Natural Gas,79.95
+2023,2,Purchased Electricity,9730.14
+2023,3,Commuting,3913.5
+2023,3,Air Travel,12439.0
+2023,3,FERA,5468.63
+2023,3,Bus Travel,1.72
+2023,3,Landfill Waste,1382.8
+2023,3,T&D Losses,544.56
