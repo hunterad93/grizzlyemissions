@@ -130,7 +130,7 @@ def overview(data):
     from sources not owned or controlled by it. The following chart shows emissions by scope.**""")
     st.plotly_chart(total_emissions_over_time)
 
-    st.markdown('**Compare total emissions for each source in a given year. The following chart shows emissions by source.**')
+    st.markdown('**Compare total emissions for each source in a given year. The following chart shows emissions by source. Hover over a bar to read an short description.**')
 
     col1, col2 = st.columns([1,5])
     # Create a selectbox for the user to select the year
