@@ -5,6 +5,7 @@ This project is a web-based dashboard for visualizing emissions data. It's built
 ## Project Structure
 
 - `grizzemissions.py`: This is the main script that runs the dashboard. It loads the data from SIMAP output, cleans it, and creates the visualizations.
+-`blurbs.csv`: This csv has source descriptions that show up when you hover bars and on the data explorer page. Update these to reflect changes in the narrative of the data. The predictions column is where I entered some predictions for the next year, which are then interpreted in the dashboard. If this column is deleted it won't break the dashboard so if there aren't new predictions or you want to remove that feature you can just delete the column.
 - `emissionsnb.ipynb`: This Jupyter notebook contains code for cleaning simap output and producing static charts
 
 ## How to Run
