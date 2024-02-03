@@ -4,6 +4,8 @@ This project is a web-based dashboard for visualizing emissions data. It's built
 
 ## Project Structure
 
+- Note that everything is kept in a single directory, this project was built to be updated with new data by folks without coding experience so the hope was that using a single directory would make the update instructions below less likely to lead to the dashboard breaking.
+
 - `grizzemissions.py`: This is the main script that runs the dashboard. It loads the data from [SIMAP](https://unhsimap.org/home) output, cleans + restructures it, and creates the visualizations.
 
 - `emissionsnb.ipynb`: This Jupyter notebook contains code for cleaning simap output and producing static charts used in our finalized emissions report to the University of Montana.
