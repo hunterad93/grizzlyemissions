@@ -2,6 +2,11 @@
 
 This project is a web-based dashboard for visualizing emissions data. It's built with Python, using libraries such as Streamlit, Pandas, and Plotly. It's configured for both Heroku hosting with `Procfile` + `setup.sh` and for running on streamlit with the `config.toml`. This dashboard can be easily adapted to work with [SIMAP](https://unhsimap.org/home) output. SIMAP is a commonly used sustainability reporting tool for Universities.
 
+To view the current version of the dashboard, visit [Griz Emissions Dashboard](https://griz-emissions.streamlit.app/). This link provides direct access to the live dashboard, showcasing the latest emissions data visualizations.
+
+![Dashboard Screenshot](dashboard%20screenshot.png)
+
+
 ## Project Structure
 
 - Note that everything is kept in a single directory, this project was built to be updated with new data by folks without coding experience so the hope was that using a single directory would make the update instructions below less likely to lead to the dashboard breaking.
